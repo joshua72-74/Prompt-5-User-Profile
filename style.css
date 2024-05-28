@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    background: linear-gradient(to right, #bdc9d3, #eef2f3);
+}
+
+.container-1{
+    height: 100%;
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.box-1{
+    height: 650px;
+    width: 400px;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: red; */
+    background: linear-gradient(to right, #c0c0aa, #1cefff);
+
+    border-radius: 50px;
+    box-shadow: 0 0 20px violet;
+}
+
+.box-1 img{
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+    object-position: center;
+    
+    border-radius: 50%;
+
+    margin-top: 50px;
+}
+
+.box-1 div{
+    font-weight: 900;
+    font-size: 50px;
+    
+    margin-top: 20px;
+
+    color: darkblue;
+
+}
+
+.connect{
+    color: white;
+    text-decoration: none;
+
+    font-size: 20px;
+    background-color: rgb(22, 22, 176);
+
+    padding: 20px;
+    margin-top: 30px;
+
+    border-radius: 20px;
+
+}
+
+.connect:hover{
+    background-color: rgb(61, 61, 227);
+    transition: 0.5s;
+}
+
+.gh{
+    color: white;
+    text-decoration: none;
+
+    font-size: 20px;
+    background-color: black;
+
+    padding: 20px;
+    margin-top: 30px;
+
+    border-radius: 10px;
+}
+
+.gh:hover{
+    background-color: rgb(80, 80, 80);
+    transition: 0.5s;
+}
+
+/*  */
+
+.container-2{
+    height: 100%;
+    width: 65%;
+
+    /* background-color: green; */
+
+    padding: 50px 80px;
+
+
+}
+
+.container-2 h1{
+    font-size: 90px;
+
+    color: darkblue;
+
+    margin-bottom: 30px;
+}
+
+.container-2 div{
+    font-size: 30px;
+
+}
+
+i{
+    font-size: 40px;
+
+    padding-right: 10px;
+}
+
+i:hover{
+    color: darkblue;
+}
+
+.container-2 p{
+    font-size: 20px;
+    padding: 20px 120px 20px 20px;
+
+    margin-top: 20px;
+
+    color: white;
+
+    background: linear-gradient(to right, #04396f, #021b79);
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px violet;
+}
+
+.container-2>div:nth-of-type(2) {
+    height: 100px;
+    width: 500px;
+    font-weight: 700;
+
+    font-size: 25px;
+    margin-top: 20px;
+
+    padding: 20px 10px;
+    
+    /* background-color: red; */
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px violet;
+}
+
+
+.box-2{
+    height: 200px;
+    width: 700px;
+
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+    font-weight: 200;
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    box-shadow: 0 0 20px violet;
+}
+
+.box-2 div{
+    margin-bottom: 20px;
+    
+}
